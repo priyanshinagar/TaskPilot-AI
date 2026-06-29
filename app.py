@@ -2,7 +2,7 @@ import google.generativeai as genai
 from flask import Flask, render_template, request
 from datetime import date
 
-genai.configure(api_key="AQ.Ab8RN6K0FNmwk3dLYEYjnjcog57VikzVPkkhrNF8bWNKnMx_IA")
+genai.configure(api_key="YOUR_API_KEY")
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
