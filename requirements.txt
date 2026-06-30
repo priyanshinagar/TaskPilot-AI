@@ -1,0 +1,4 @@
+gunicorn==26.0.0
+packaging==26.2
+pygame==2.6.1
+python-dotenv==1.2.2
